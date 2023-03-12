@@ -308,7 +308,7 @@ class MathSelectionOverlay {
             TextSelectionPoint(endpoint2, TextDirection.ltr),
           ],
           manager,
-          clipboardStatus!,
+          clipboardStatus!,Offset.zero
         ),
       ),
     );
